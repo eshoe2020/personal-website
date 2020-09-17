@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.outline {
+    border: 3px dotted red;
+}
+
+header {
+    height: 200px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
