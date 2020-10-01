@@ -1,33 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elaine's Personal Website</title>
-   
+    
+    <title>Elaines Personal Website</title>
+    
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./css/style.css">
-  
+    
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   
     <script defer src="./js/script.js"></script>
 
-            
 </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 <body>
     <nav>
         <div class="nav-wrapper purple lighten-2">
-            <a href="#" class="brand-logo">Elaine Hsu</a>
+            <a href="#" class="brand-logo">Elaine Shoe</a>
         </div>
     </nav>
     <header>
-
+        <h3 class="white-text">Hi there, I'm Elaine</h3>
+        <img src="" alt="Elaine Shoe" class="responsive-image circle">
     </header>
-    <main></main>
+    <main class="container">
+        <div class="row">
+            <section class="col s6">
+                <div class="container"></div>
+                <h4>About Me</h4>
+                <p class="body-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, mollitia minima, 
+                    quisquam hic laudantium labore impedit molestiae fuga provident ratione voluptatem eum 
+                    et beatae vero repudiandae sequi fugiat dolorum iusto!Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Voluptas, mollitia minima, quisquam hic laudantium labore impedit molestiae 
+                    fuga provident ratione voluptatem eum et beatae vero repudiandae sequi fugiat dolorum iusto!Lorem, 
+                    ipsum dolor sit amet consectetur adipisicing elit. Voluptas, mollitia minima, quisquam hic 
+                    laudantium labore impedit molestiae fuga provident ratione voluptatem eum et beatae vero
+                    repudiandae sequi fugiat dolorum iusto!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptas, mollitia minima, quisquam hic laudantium labore impedit molestiae fuga provident 
+                    
+                
+                </p>
+            </section>
+            <section class="col s6">
+                <div class="container"></div>
+                <h4>Keep in Touch</h4>
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="input-field">
+                        <input type="text" name="name" id="name">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" name="email" id="email">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="input-field">
+                        <textarea class="materialize-textare" name="message" id="message"></textarea>
+                        <label for="message">Your Message:</label>
+                    </div>
+                    <button type="submit" class="btn btn-small purple">Send Message</button>
+                </form>
+            </section>
+        </div>
+
+    </main>
     <footer class="page-footer purple lighten-2">
-        <p class="center-text">Copyright &copy; 2020 All Rights Reserved EHsu </p>
+        <h3>Follow Me</h3>
+        <section>
+            <a href="https://www.linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+        </section>
+        <p class="center-text">Copyright &copy; 2020 All Rights Reserved Elaine</p>
     </footer>
 </body>
 </html>
