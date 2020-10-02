@@ -10,19 +10,20 @@ body {
 }
 
 .brand-logo{
-    font-family:'Overpass Mono', monospace;
+    font-family: 'Big Shoulders Display', cursive;
 }
 
-.outline {
-    border: 3px dotted red;
+.white-text{
+    font-family: 'Rouge Script', cursive;
 }
+
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
-    background-image: (put url)
+    background-image: url('../IMGs/banner.jpg');
     background-size: cover;
     background-position: cover;
 }
@@ -45,6 +46,7 @@ footer {
 }
 
 footer h3 {
+    font-family: 'Big Shoulders Display', cursive;
     font-size: 20px;
 }
 
